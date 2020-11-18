@@ -1,79 +1,79 @@
 export const indexCopy = {
-  index_headline: "<bold>Typed JavaScript at Any Scale.</bold>",
-  index_byline: "TypeScript extends JavaScript by adding types.",
+  index_headline: "<bold>あらゆる規模での型付きJavaScript</bold>",
+  index_byline: "TypeScriptは型を追加することでJavaScriptを拡張します。",
   index_summary:
-    "By understanding JavaScript, TypeScript saves you time catching errors and providing fixes before you run code.",
+    "JavaScriptを理解しているので、TypeScriptはコードを実行する前にエラーを補足して修正する時間を省きます。",
   index_locations:
-    "Any browser, any OS, anywhere JavaScript runs. Entirely Open Source.",
+    "どんなブラウザでも、どんなOSでも、JavaScriptはどこでも動作します。完全なオープンソースです。",
 
-  index_cta_play: "Try in your browser",
-  index_cta_install: "Install locally",
+  index_cta_play: "ブラウザで試す",
+  index_cta_install: "ローカルにインストールする",
 
-  index_what_is: "What is TypeScript?",
+  index_what_is: "TypeScriptとは？",
 
-  index_what_is_js: "JavaScript and More",
+  index_what_is_js: "JavaScriptとその他",
   index_what_is_js_copy: `
-<p>TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.</p>
+<p>TypeScriptは、世界で最も使用されているツールのひとつであるJavaScriptをベースに、静的な型定義を追加したオープンソースの言語です。</p>
 
-<p>Types provide a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly.</p>
+<p>型がオブジェクトの形状を記述する方法を提供してくれるので、より良いドキュメントを提供したり、TypeScriptがあなたのコードが正しく動作しているかどうか検証することが可能になります。</p>
 
-<p>Writing types can be optional in TypeScript, because type inference allows you to get a lot of power without writing additional code.</p>`,
+<p>TypeScriptでは型を書くことは任意ですが、型推論によって余計なコードを書かずにたくさんの力を得ることができるからです。</p>`,
 
-  index_trust: "A Result You Can Trust",
-  index_trust_copy_a: `All valid JavaScript code is also TypeScript code. You might get type-checking errors, but that won't stop you from running the resulting JavaScript. While you can go for stricter behavior, that means you're still in control.`,
-  index_trust_copy_b: `TypeScript code is transformed into JavaScript code via the TypeScript compiler or <babel>Babel</babel>. This JavaScript is clean, simple code which runs anywhere JavaScript runs: In a browser, on Node.JS or in your apps.`,
-  index_standards: "Evolving with Standards",
+  index_trust: "信頼できる結果",
+  index_trust_copy_a: `すべての有効なJavaScriptコードはTypeScriptコードでもあります。型チェックのエラーが出るかもしれませんが、結果としてJavaScriptが実行できなくなることはありません。より厳密な動作を求めることはできますが、これはまだあなたがコントロールしていることを意味しています。`,
+  index_trust_copy_b: `TypeScriptコードはTypeScriptコンパイラまたは<babel>Babel</babel>を通してJavaScriptコードに変換されます。このJavaScriptはクリーンでシンプルなコードで、JavaScriptが動作するところであればどこでも動作します。ブラウザでも、Node.JSでも、あなたのアプリでも。`,
+  index_standards: "標準とともに進化",
   index_standards_copy: `
-  <p>The TypeScript team contributes to the TC39 committees which help guide the evolution of the JavaScript language.</p>
+  <p>TypeScriptチームは、JavaScript言語の進化の指針を示すTC39委員会にコントリビュートしています。</p>
 
-  <p>When new features have reached stage 3, then they are ready for inclusion in TypeScript.</p>
+  <p>新しい機能がステージ3に達した時点で、TypeScriptに追加する準備があります。</p>
 
-  <p>For example the TypeScript team championed proposals like Optional Chaining, Nullish coalescing Operator, Throw Expressions and RegExp Match Indices.</p>`,
+  <p>例えば、TypeScriptチームはOptional Chaining、Nullish coalescing Operator、Throw Expressions、RegExp Match Indicesなどの提案を支持しました。</p>`,
 
-  index_gradual: "Gradual Adoption",
+  index_gradual: "ゆるやかな採用",
   index_gradual_copy: `
-<p>Adopting TypeScript is not a binary choice, you can start by annotating existing JavaScript with JSDoc, then switch a few files to be checked by TypeScript and over time prepare your codebase to convert completely.</p>
+<p>TypeScriptの採用は二者択一ではありません。JSDocで注釈を付けることから始め、いくつかのファイルをTypeScriptでチェックするように切り替えて、時間をかけてコードベースを完全に変換する準備をすることができます。</p>
 
-<p>TypeScript’s type inference means that you don’t have to annotate your code until you want more safety.</p>`,
+<p>TypeScriptの型推論は、より高い安全性を求めるまではコードに注釈を付ける必要がないことを意味します。</p>`,
 
-  index_dts: "Types On Every Desk",
+  index_dts: "あらゆる場所での型",
   index_dts_copy: `
-<p>Most of the world's JavaScript is un-typed, and inference can only go so far. To address this, the TypeScript team helps maintain <dt>Definitely Typed</dt> - a community project to provide types and inline documentation to existing JavaScript.
+<p>世界のほとんどのJavaScriptは型がついておらず、推論はそこまでできません。これに対処するためにTypeScriptチームは<dt>Definitely Typed</dt> - 既存のJavaScriptに方とインラインドキュメントを提供するコミュニティプロジェクト - のメンテナンスを支援しています。
 
-<p>This project allows the community to maintain type definitions for JavaScript libraries without putting extra pressure on their maintainers.</p>`,
+<p>このプロジェクトによって、コミュニティがメンテナに余計なプレッシャーをかけることなく、JavaScriptライブラリの型定義をメンテナンスすることが可能になります。</p>`,
 
-  index_tools: "Consistently Good Tooling",
+  index_tools: "常に良好なツール",
   index_tools_copy: `
-  <p>By handling a lot of the editor integration inside TypeScript, you can get a consistent experience working in many editors.</p>
+  <p>TypeScriptでの多くのエディタ統合の処理により、たくさんのエディタで一貫性のある作業経験を得ることができます。</p>
 
-  <p>This lets you easily jump between editors like <vs>Visual Studio</vs>, <vsc>Visual Studio Code</vsc>, <nova>Nova</nova>, <atom>Atom</atom>, <subl>Sublime Text</subl>, <emacs>Emacs</emacs>, <vim>Vim</vim>, <webs>WebStorm</webs> and <eclipse>Eclipse</eclipse>.</p>
+  <p>これによって、<vs>Visual Studio</vs>, <vsc>Visual Studio Code</vsc>, <nova>Nova</nova>, <atom>Atom</atom>, <subl>Sublime Text</subl>, <emacs>Emacs</emacs>, <vim>Vim</vim>, <webs>WebStorm</webs>, <eclipse>Eclipse</eclipse>といったエディタを簡単に使い分けることができます。</p>
 
-  <p>TypeScript's editor integration supports JavaScript, so it's quite likely you're already using TypeScript under the hood.
+  <p>TypeScriptのエディタ統合はJavaScriptをサポートしているため、すでに内部でTypeScriptを使用しているかもしれません。
   `,
 
-  index_started_title: "Get Started",
-  index_started_handbook: "Handbook",
-  index_started_handbook_blurb: "Learn the language",
-  index_started_docs: "Start a Project",
-  index_started_docs_blurb: "Find a bootstrapping tool",
-  index_started_tooling: "Tooling",
-  index_started_tooling_blurb: "Deep dives into TypeScript",
-  index_started_community: "Community",
-  index_started_community_blurb: "Keep up to date",
-  index_install: "Install TypeScript",
+  index_started_title: "始める",
+  index_started_handbook: "ハンドブック",
+  index_started_handbook_blurb: "言語を学ぶ",
+  index_started_docs: "プロジェクトを開始",
+  index_started_docs_blurb: "ブートストラップツールを探す",
+  index_started_tooling: "ツール",
+  index_started_tooling_blurb: "TypeScriptに深く潜る",
+  index_started_community: "コミュニティ",
+  index_started_community_blurb: "最新の情報を追う",
+  index_install: "TypeScriptをインストールする",
   index_install_ref: `
-  <p>You can install TypeScript via npm<pre>npm install -g typescript</pre>
-  <p>Then run the compiler via <code>tsc</code><pre>npx tsc</pre>
-  <p>Learn more about how to add TypeScript to your apps in the <download>installation page</download>
+  <p>npmでTypeScriptをインストールすることができます<pre>npm install -g typescript</pre>
+  <p><code>tsc</code>でコンパイラを実行できます<pre>npx tsc</pre>
+  <p>アプリケーションにTypeScriptを追加する方法については、<download>インストールページ</download>を参照してください。
   `,
-  index_releases: "Quarterly Releases",
-  index_releases_pt1: "Our next release is ",
-  index_releases_pt2: ", which is planned for ",
-  index_releases_released: "Released",
-  index_releases_beta: "Beta",
+  index_releases: "3ヶ月毎のリリース",
+  index_releases_pt1: "次リリース: ",
+  index_releases_pt2: "リリース予定日: ",
+  index_releases_released: "リリース済み",
+  index_releases_beta: "ベータ",
   index_releases_rc: "RC",
 
-  index_migration_title: "Migration Stories",
-  index_migration_oss: "Open Source with TypeScript",
-  index_videos_title: "Watch TypeScript in Action",
+  index_migration_title: "マイグレーションストーリー",
+  index_migration_oss: "TypeScriptとオープンソース",
+  index_videos_title: "実践的なTypeScriptを見る",
 }
